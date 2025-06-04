@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Lexoract | AI for Law Students</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #FAFAFA;
+      color: #1E1E1E;
+    }
+    header {
+      background: linear-gradient(90deg, #3A58F5 0%, #FF5C39 100%);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      width: 100px;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0.5rem 0 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .section {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .section h2 {
+      font-size: 2rem;
+      color: #3A58F5;
+    }
+    .section p, .section li {
+      font-size: 1.1rem;
+      color: #444;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+    .feature {
+      background: white;
+      flex: 1 1 250px;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    }
+    .cta-btn {
+      display: inline-block;
+      background: #FF5C39;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    .email-form input[type="email"] {
+      padding: 0.5rem;
+      font-size: 1rem;
+      width: 250px;
+      margin-right: 0.5rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .email-form button {
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      background: #3A58F5;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Lexoract Logo">
+    <h1>Lexoract</h1>
+    <p>Law School, Demystified.</p>
+    <a href="https://lexoract.streamlit.app" class="cta-btn">Launch Lexoract</a>
+  </header>
+
+  <section class="section">
+    <h2>What is Lexoract?</h2>
+    <p>
+      Lexoract is your all-in-one AI-powered assistant designed for law students. Built by a law student, it simplifies your academic life through case analysis, organization, and efficient study tools.
+    </p>
+    <ul>
+      <li>💡 IRAC Summarizer</li>
+      <li>📚 Case Bank Organizer</li>
+      <li>🧠 Flashcard Builder</li>
+      <li>📥 PDF/DOCX Exporting</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>How It Works</h2>
+    <ol>
+      <li>Paste any case or legal text</li>
+      <li>Lexoract extracts a full IRAC summary using AI</li>
+      <li>Download your brief, create flashcards, and crush your outline</li>
+    </ol>
+  </section>
+
+  <section class="section">
+    <h2>Feature Highlights</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Flashcard Mode</h3>
+        <p>Create smart flashcards from your briefs.</p>
+      </div>
+      <div class="feature">
+        <h3>Multi-Case Upload</h3>
+        <p>Summarize multiple cases in one go.</p>
+      </div>
+      <div class="feature">
+        <h3>Downloadable Output</h3>
+        <p>Get your summaries as PDF, DOCX, or plain text.</p>
+      </div>
+      <div class="feature">
+        <h3>Beautiful UI</h3>
+        <p>Legal research that doesn’t look like it came from 1997.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Meet the Creator</h2>
+    <p>
+      "As a law student, I got tired of reinventing the wheel every time I read a case. Lexoract is the tool I wish existed during 1L — so I built it."<br><br>
+      — Angel G.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Stay in the Loop</h2>
+    <p>Be the first to know when Lexoract expands. We’re just getting started.</p>
+    <form class="email-form" action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST">
+      <input type="email" name="email" placeholder="Your email" required>
+      <button type="submit">Join the List</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Lexoract. Built by law students, for law students.<br>
+    <a href="#">Privacy</a> • <a href="#">Terms</a>
+  </footer>
+</body>
+</html>
